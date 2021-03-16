@@ -2,6 +2,7 @@
     "name": "mltechnology/mlcore",
     "description": "this is core library of mltechnology.",
     "type": "library",
+    "version": "1.0.0",
     "license": "Apache-2.0",
     "authors": [
         {
