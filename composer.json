@@ -1,0 +1,13 @@
+{
+    "name": "ml/mlcore",
+    "description": "this is core library of mltechnology.",
+    "type": "library",
+    "authors": [
+        {
+            "name": "MartyZane",
+            "email": "zhao365845726@163.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
