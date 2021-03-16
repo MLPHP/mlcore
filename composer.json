@@ -8,5 +8,7 @@
             "name": "MartyZane",
             "email": "zhao365845726@163.com"
         }
-    ]
+    ],
+    "minimum-stability": "stable",
+    "require": {}
 }
