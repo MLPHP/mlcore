@@ -42,10 +42,10 @@ class AliyunSmsSdk {
 	 */
 	public function sendSMS($mobile, $msg,$template) {
 
-		$client = self::createClient("LTAI5tJbDKJ16AWa6rwJMsDQ", "sCBG1UJ9Tznq29QbD08gVNzDBnzYuA");
+		$client = self::createClient("accessKeyId", "accessKeySecret");
 		$sendSmsRequest = new SendSmsRequest([
 			"phoneNumbers" => $mobile,
-			"signName" => "青岛瑞和农牧",
+			"signName" => "哈哈",
 			"templateCode" => $template, //"SMS_215400108",
 			"templateParam" => '{"code":"' . $msg . '"}'
 		]);
